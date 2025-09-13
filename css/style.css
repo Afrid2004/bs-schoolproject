@@ -28,10 +28,7 @@ li{
     top: 2.6rem;
 
 }
-.carousel-1 .carousel-inner .carousel-item{
-    overflow: hidden !important;
-    height: 400px;
-}
+
 .carousel-1 .carousel-inner .carousel-item img{
     object-fit: cover;
 }
@@ -151,4 +148,10 @@ li{
 }
 .list-group-two::-webkit-scrollbar-track{
     background-color: rgb(235, 235, 235);
+}
+.btn-info{
+    background-color: #1296b1;
+}
+.btn-info:hover{
+    background-color:#0e758a;
 }
