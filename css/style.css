@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sulaiman lipi";
+}
+@font-face {
+    font-family: sulaiman lipi;
+    src: url(../font/SolaimanLipi_20-04-07.ttf);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.menu-list li{
+    cursor: pointer;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    top: 2.6rem;
+    left: -.6rem;
+}
+.dropdown-menu.show{
+    left: -.6rem;
+    top: 2.6rem;
+
+}
+.carousel-1 .carousel-inner .carousel-item{
+    overflow: hidden !important;
+    height: 400px;
+}
+.carousel-1 .carousel-inner .carousel-item img{
+    object-fit: cover;
+}
+.carousel-1 .carousel-content{
+    background: rgba(82, 81, 81, 0.692);
+}
+.carousel-1 .carousel-indicators{
+    top:1rem;
+    left:initial;
+    right:1rem !important;
+    margin: 0 !important;
+
+}
+.carousel-1 .carousel-indicators [data-bs-target],
+.carousel-2 .carousel-indicators [data-bs-target] {
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color: black;
+}
+.carousel-1 .carousel-control-prev,
+.carousel-1 .carousel-control-next{
+    opacity: 0;
+    pointer-events: none;
+}
+.bg-info {
+    background-color: #1296b1 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon.close-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M6 6L24 24M6 24L24 6'/%3e%3c/svg%3e");
+}
+
+.dropdown-item:hover{
+    background-color: rgb(12, 128, 163);
+}
+.top-social a{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.top-social a i{
+    font-size: 1.2rem;
+    color: white;
+}
+.top-social a:nth-child(1){
+    background-color: rgb(37, 111, 185);
+}
+.top-social a:nth-child(2){
+    background-color: dodgerblue;
+}
+.top-social a:nth-child(3){
+    background-color: rgb(252, 47, 11);
+}
+
+.carousel-2 .carousel-indicators button{
+    background-color: black;
+}
+
+.carousel-2 .carousel-indicators{
+    bottom: -2rem;
+}
+.carousel-2 .carousel-control-prev,
+.carousel-2 .carousel-control-next{
+    opacity: 0;
+    pointer-events: none;
+}
+.notice-title a{
+    font-size: 1.5rem;
+}
+.custom-border{
+    border-left: 1px solid #0e758a !important;
+    border-right: 1px solid #15aecc !important;
+}
+.last-list{
+        border-left: 1px solid #0e758a !important;
+}
+
