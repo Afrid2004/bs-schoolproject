@@ -50,6 +50,7 @@ li{
     border:none;
     padding: 0rem;
     padding-top:.5rem;
+    background-color: rgb(12, 128, 163);
 }
 .navbar-toggler{
     box-shadow:none !important;
@@ -161,6 +162,9 @@ li{
 .list-group-two{
     max-height: 260px;
     overflow: auto;
+}
+.list-group-three{
+    max-height: 350px !important;
 }
 .list-group-two::-webkit-scrollbar{
     width: 5px;
