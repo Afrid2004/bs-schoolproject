@@ -21,117 +21,120 @@
     <header class="header">
         <nav class="container header-top">
             <div class="row py-2 align-items-center">
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-12 mb-3">
                     <div class="row align-items-center">
-                        <div class="col-lg-2"> 
+                        <div class="col-3 col-lg-2 pe-0"> 
                             <a href="#" class="top-logo">
-                                <img src="./images/logo.png" alt="" srcset="">
+                                <img src="./images/logo.png" class="d-block w-75" alt="logo">
                             </a>
                         </div>
-                        <div class="col-lg-10">
-                            <h1 class="text-info mb-0">স্কুল / কলেজের নাম</h1>
+                        <div class="col-lg-10 col-9 px-0">
+                            <a href="#"><h1 class="text-info mb-0">স্কুল / কলেজের নাম</h1></a>
                             <p class="mb-0">স্থাপিতঃ ০ নভেম্বর ০০০০ বি. EIIN: 000000, Number: 000000000</p>
                             <p class="mb-0">ENII NO. 123456 ঠিকানা, ঠিকানা, ঠিকানা, ফোন: ০১৫৭৮-******, ই-মেইলঃ test@gmail.com</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="search-form mb-3">
-                        <form action="#" class="d-flex gap-3">
-                            <input type="text" name="text" class="p-1 border-danger" placeholder="এখানে সার্চ করুন" required>
-                            <button type="submit" class="p-1 border-danger"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </form>
-                    </div>
-                    <div class="top-social d-flex gap-2">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <div class="col-lg-3 col-12">
+                    <div class="row justify-content-between">
+                        <div class="search-form col-7">
+                            <form action="#" class="d-flex gap-3">
+                                <input type="text" name="text" class="form-control" placeholder="এখানে সার্চ করুন" required>
+                                <button type="submit" class="btn btn-info"><i class="fa-solid fa-magnifying-glass text-light"></i></button>
+                            </form>
+                        </div>
+                        <div class="top-social col-4 d-flex gap-2 justify-content-end">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="header-bottom">
                 <nav class="navbar navbar-expand-lg sticky-top bg-info py-0">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler d-flex d-lg-none justify-content-between align-items-center w-100" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <p class="mb-0 text-light">মেনু</p>
                         <span class="navbar-toggler-icon">
                         </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav">
-                            <li class="nav-item active py-1 bg-danger px-2"><a class="nav-link text-light" href="#">প্রচ্ছদ</a></li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item active py-1 bg-danger px-2"><a class="nav-link text-light custom-link" href="#">প্রচ্ছদ</a></li>
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                                         আমাদের সম্পর্কে 
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        শিক্ষার্থী 
+                                        শিক্ষার্থী
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        ভর্তি  
+                                        ভর্তি
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
                                         পরীক্ষার ফল  
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item active py-1 bg-info px-2 custom-border"><a class="nav-link text-light" href="#">পিটিএ </a></li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item py-1 bg-info custom-border"><a class="nav-link text-light px-2" href="#">পিটিএ </a></li>
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        গ্যালারি 
+                                        গ্যালারি  
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item py-1 bg-info px-2 custom-border">
-                                <div class="dropdown nav-link">
+                            <li class="nav-item py-1 bg-info custom-border">
+                                <div class="dropdown nav-link px-2">
                                     <div class="dropdown-toggle text-light" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                                        বানী 
+                                        বানী  
                                     </div>
-                                    <ul class="dropdown-menu bg-info" aria-labelledby="dropdownMenu2">
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 1</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 2</a></li>
-                                        <li><a href="#" class="dropdown-item nav-link text-light">Page Link 3</a></li>
+                                    <ul class="dropdown-menu bg-transparent" aria-labelledby="dropdownMenu2">
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 1</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 2</a></li>
+                                        <li><a href="#" class="dropdown-item nav-link text-light px-3">Page Link 3</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li class="nav-item active py-1 bg-info px-2 custom-border"><a class="nav-link text-light" href="#">আর্কাইভ</a></li>
+                            <li class="nav-item active py-1 bg-info custom-border"><a class="nav-link text-light px-2" href="#">আর্কাইভ</a></li>
                             <li class="nav-item active py-1 bg-info last-list"><a class="nav-link text-light px-2" href="#">যোগাযোগ</a></li>
                         </ul>
                     </div>
@@ -145,93 +148,77 @@
     <div class="container">
         <section class="banner-section">
             <div class="row py-3">
-                <div class="col-lg-8">
-                    <div id="carouselExampleIndicators" class="carousel slide carousel-1" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="col-lg-8 mb-3">
+                        <div id="carouselExampleIndicators" class="carousel slide carousel-1" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="#">
+                                        <img src="./images/school-1.jpg" class="d-block w-100" alt="school1">
+                                    </a>
+                                    <a href="#" class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
+                                        <p class="mb-0 text-light">একটি স্কুল হল শিক্ষা প্রতিষ্ঠান (এবং, ব্যক্তিগতভাবে শেখার ক্ষেত্রে, বিল্ডিং ) যা সাধারণত শিক্ষকদের নির্দেশে শিক্ষার্থীদের শেখানোর জন্য শেখার পরিবেশ প্রদানের জন্য ডিজাইন করা হয়।</p>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                        <img src="./images/school-2.jpg" class="d-block w-100" alt="school2">
+                                    </a>
+                                    <a href="#" class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
+                                        <p class="mb-0 text-light">স্কুলগুলি ছাড়াও, একটি নির্দিষ্ট দেশের শিক্ষার্থীরা প্রাথমিক (মার্কিন যুক্তরাষ্ট্রে প্রাথমিক) এবং মাধ্যমিক (মার্কিন যুক্তরাষ্ট্রে মাধ্যমিক) শিক্ষার আগে এবং পরে স্কুলেও যোগদান করতে পারে।</p>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                   <a href="#">
+                                     <img src="./images/school-3.jpg" class="d-block w-100" alt="school3">
+                                   </a>
+                                    <a href="#" class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
+                                        <p class="mb-0 text-light"> বেশিরভাগ দেশে আনুষ্ঠানিক শিক্ষা ব্যবস্থা রয়েছে , যা কখনও কখনও বাধ্যতামূলক । এই ব্যবস্থায়, শিক্ষার্থীরা এমন কয়েকটি স্কুলের মাধ্যমে অগ্রগতি লাভ করে</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./images/school-1.jpg" class="d-block w-100" alt="school1">
-                                <div class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
-                                    <p class="mb-0 text-light">একটি স্কুল হল শিক্ষা প্রতিষ্ঠান (এবং, ব্যক্তিগতভাবে শেখার ক্ষেত্রে, বিল্ডিং ) যা সাধারণত শিক্ষকদের নির্দেশে শিক্ষার্থীদের শেখানোর জন্য শেখার পরিবেশ প্রদানের জন্য ডিজাইন করা হয়।</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/school-2.jpg" class="d-block w-100" alt="school2">
-                                <div class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
-                                    <p class="mb-0 text-light">স্কুলগুলি ছাড়াও, একটি নির্দিষ্ট দেশের শিক্ষার্থীরা প্রাথমিক (মার্কিন যুক্তরাষ্ট্রে প্রাথমিক) এবং মাধ্যমিক (মার্কিন যুক্তরাষ্ট্রে মাধ্যমিক) শিক্ষার আগে এবং পরে স্কুলেও যোগদান করতে পারে।</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./images/school-3.jpg" class="d-block w-100" alt="school3">
-                                <div class="carousel-content position-absolute bottom-0 z-1 w-100 p-2">
-                                    <p class="mb-0 text-light"> বেশিরভাগ দেশে আনুষ্ঠানিক শিক্ষা ব্যবস্থা রয়েছে , যা কখনও কখনও বাধ্যতামূলক । এই ব্যবস্থায়, শিক্ষার্থীরা এমন কয়েকটি স্কুলের মাধ্যমে অগ্রগতি লাভ করে</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
                 </div>
                 <div class="col-lg-4">
                    <div class="top-content">
-                        <div class="top-title bg-danger text-center text-light py-1">
+                        <div class="top-title bg-info text-center text-light py-1 mb-2">
                             <p class="mb-0">নোটিশ</p>
                         </div>
-                        <div class="middle-title text-center text-danger border-bottom border-danger py-1 px-3 mb-2">
-                            <p class="mb-0">২০২৫ শিক্ষাবর্ষে মোনঘর আবাসিক বিদ্যালয়ে ভর্তি বিজ্ঞপ্তি</p>
-                        </div>
-                        <a href="#" class="text-danger">...বিস্তারিত </a>
+                        <ul class="list-group list-group-two">
+                            <li><a href="#" class="list-group-item">স্কুল একাডেমিক ক্যালেন্ডার</a></li>
+                            <li><a href="#" class="list-group-item">১ম-৫ম শ্রেণীর ক্লাস রূটিন</a></li>
+                            <li><a href="#" class="list-group-item">৬ষ্ঠ-১০ম শ্রেণীর ক্লাস রূটিন</a></li>
+                            <li><a href="#" class="list-group-item">উপস্থিতি বিবরণী</a></li>
+                            <li><a href="#" class="list-group-item">ডিজিটাল কন্টেন্ট ও প্রকাশনা</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                            <li><a href="#" class="list-group-item">প্রয়োজনীয় ফরম ডাউনলোড</a></li>
+                        </ul>
                    </div>
-                   <div id="carouselExampleIndicatorsTwo" class="carousel slide carousel-2" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="notice-title text-center text-danger py-1 px-3 mb-2">
-                                    <a href="#" class="text-danger">ফরম ফিলাপ সম্পর্কিত জরুরী বিজ্ঞপ্তি ১</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                               <div class="notice-title text-center text-danger py-1 px-3 mb-2">
-                                    <a href="#" class="text-danger">ফরম ফিলাপ সম্পর্কিত জরুরী বিজ্ঞপ্তি ২</a>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="notice-title text-center text-danger py-1 px-3 mb-2">
-                                    <a href="#" class="text-danger">ফরম ফিলাপ সম্পর্কিত জরুরী বিজ্ঞপ্তি ৩</a> 
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                        </div>
                 </div>
             </div>
         </section>
         
         <section class="second-section">
-            <div class="row py-2  mb-3">
-                <div class="col-lg-3">
-                    <div class="second-topper mb-4">
+            <div class="row py-2">
+                <div class="col-lg-3 mb-3">
+                    <div class="second-topper mb-3">
                         <div class="sec-title bg-info text-center py-1 text-light mb-2">
                             <p class="mb-0">প্রতিষ্ঠাতা</p>
                         </div>
@@ -334,7 +321,7 @@
 
         <section class="bottom-section">
             <div class="row mb-3">
-                <div class="col-lg-3">
+                <div class="col-lg-3 mb-3">
                     <form action="#">
                         <div class="mb-2">
                             <label for="name" class="form-label">আপনার নাম</label>
@@ -362,10 +349,10 @@
                     <div class="row">
                         <div class="col-lg-12 mb-2">
                             <div class="row border-bottom mx-1 pb-2">
-                                <div class="col-lg-4 px-0">
+                                <div class="col-4 col-lg-4 px-0">
                                     <img src="./images/profile.jpg" class="d-block w-100" alt="profile">
                                 </div>
-                                <div class="col-lg-8 px-0 ps-3">
+                                <div class="col-8 col-lg-8 px-0 ps-3">
                                     <p class="mb-0">প্রোফাইল নাম ১</p>
                                     <p class="mb-0">সভাপতি</p>
                                     <p class="mb-0">মোবাইলঃ ০১২৩৪৫৬৭৮৯০</p>
@@ -374,10 +361,10 @@
                         </div>
                         <div class="col-lg-12 mb-2">
                             <div class="row border-bottom mx-1 pb-2">
-                                <div class="col-lg-4 px-0">
+                                <div class="col-4 col-lg-4 px-0">
                                     <img src="./images/profile.jpg" class="d-block w-100" alt="profile">
                                 </div>
-                                <div class="col-lg-8 px-0 ps-3">
+                                <div class="col-8 col-lg-8 px-0 ps-3">
                                     <p class="mb-0">প্রোফাইল নাম ২</p>
                                     <p class="mb-0">সভাপতি</p>
                                     <p class="mb-0">মোবাইলঃ ০১২৩৪৫৬৭৮৯০</p>
@@ -386,10 +373,10 @@
                         </div>
                         <div class="col-lg-12 mb-2">
                             <div class="row mx-1 pb-2">
-                                <div class="col-lg-4 px-0">
+                                <div class="col-4 col-lg-4 px-0">
                                     <img src="./images/profile.jpg" class="d-block w-100" alt="profile">
                                 </div>
-                                <div class="col-lg-8 px-0 ps-3">
+                                <div class="col-8 col-lg-8 px-0 ps-3">
                                     <p class="mb-0">প্রোফাইল নাম ৩ </p>
                                     <p class="mb-0">সভাপতি</p>
                                     <p class="mb-0">মোবাইলঃ ০১২৩৪৫৬৭৮৯০</p>
@@ -405,10 +392,10 @@
                         <div class="row">
                             <div class="col-lg-12 mb-2">
                                 <div class="row mx-1 pb-2">
-                                    <div class="col-lg-4 px-0">
+                                    <div class="col-4 col-lg-4 px-0">
                                         <img src="./images/profile.jpg" class="d-block w-100" alt="profile">
                                     </div>
-                                    <div class="col-lg-8 px-0 ps-3">
+                                    <div class="col-8 col-lg-8 px-0 ps-3">
                                         <p class="mb-0">আমাদের বিদ্যালয়ের দু’টি গৃহ আছে। একটি একতলা পাকা গৃহ। অন্যগুলো টিনসেড। টিনসেড গৃহগুলোতে ৬ষ্ঠ ও ৭ম শ্রেণির ছাত্র-ছাত্রীদের ক্লাস বসে এবং অট্টালিকায় ৮ম শ্রেণি হতে দশম শ্রেণি পর্যন্ত ক্লাস বসে<a href="#" class="text-danger">...বিস্তারিত</a></p> 
                                     </div>
                                 </div>
