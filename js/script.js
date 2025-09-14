@@ -10,22 +10,19 @@ const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   spaceBetween: 5,
 
-
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable:true,
     dynamicBullets:true 
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
     autoplay: {
-    delay: 3000,          // প্রতি ৩ সেকেন্ডে স্লাইড পরিবর্তন হবে
-    disableOnInteraction: false, // ইউজার ক্লিক করার পরেও autoplay চলবে
+    delay: 3000,
+    disableOnInteraction: false,
   },
   breakpoints: {
     0:{
@@ -55,3 +52,18 @@ swiperEl.addEventListener('mouseleave', () => {
 
 //swipper js
 
+
+//dynamic modal 
+var allCardItem = document.querySelectorAll(".card-item"),
+modalTitle = document.querySelector(".modalTitle"),
+modalImg = document.getElementById("modalImg");
+
+allCardItem.forEach((card) => {
+  var imgSrc = card.querySelector("#imgSrc"),
+  imgCaption = card.querySelector("#imgCaption");
+
+  card.addEventListener('click', () => {
+    modalImg.setAttribute("src",imgSrc.src);
+    modalTitle.textContent = imgCaption.textContent;
+  })
+})

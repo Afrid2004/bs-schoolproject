@@ -22,7 +22,7 @@
 
     <!-- header start -->
     <header class="header">
-        <nav class="container header-top">
+        <nav class="container header-top bg-light">
             <div class="row py-2 align-items-center">
                 <div class="col-lg-9 col-12 mb-3">
                     <div class="row align-items-start align-items-lg-center">
@@ -148,7 +148,7 @@
     <!-- header end -->
 
     <!-- body start -->
-    <div class="container">
+    <div class="container bg-light">
         <section class="banner-section">
             <div class="row py-3">
                 <div class="col-lg-8 mb-3">
@@ -409,23 +409,23 @@
             </div>
         </section>
 
-        <section class="gallery-section mb-4">
+        <section class="gallery-section pb-5">
             <div class="sec-title bg-info text-center py-1 text-light mb-2">
                 <p class="mb-0">ফটো গ্যালারি</p>
             </div>
             <div class="gallery  position-relative">
-                <div class="gallery-slider swiper mb-5">
+                <div class="gallery-slider swiper">
                 <div class="slider-wrapper">
                     <div class="card-list swiper-wrapper">
-                        <div class="card-item swiper-slide">
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="sec-img-content position-relative">
-                                <img src="./images/school-1.jpg" class="d-block w-100" alt="school1">
+                                <img src="./images/school-1.jpg" id="imgSrc" class="d-block w-100" alt="school1">
                                 <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
-                                    <p class="mb-0 text-light">ছবি ১</p>
+                                    <p class="mb-0 text-light" id="imgCaption">ছবি ১</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="card-item swiper-slide">
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <div class="sec-img-content position-relative">
                                 <img src="./images/school-2.jpg" class="d-block w-100" alt="school1">
                                 <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
@@ -498,11 +498,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">ছবি ১</h5>
+                        <h5 class="modal-title modalTitle" id="exampleModalLabel">ছবি ১</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body p-0">
-                        <img src="./images/school-1.jpg" class="d-block w-100" alt="school1">
+                        <img id="modalImg" class="d-block w-100" alt="school1">
                     </div>
                 </div>
             </div>

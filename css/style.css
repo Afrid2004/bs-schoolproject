@@ -14,7 +14,9 @@ a{
 li{
     list-style-type: none;
 }
-
+body{
+    background-color: #aff2ff;
+}
 .menu-list li{
     cursor: pointer;
 }
