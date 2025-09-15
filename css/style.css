@@ -20,6 +20,9 @@ li{
 body{
     background-color: #00d5ff3a;
 }
+.container{
+    background-color: white !important;
+}
 .menu-list li{
     cursor: pointer;
 }
@@ -216,4 +219,30 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-30%);
+}
+.committee-banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/committee.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cmt-card{
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+cursor: pointer;
+border: 1px solid transparent;
+transition: all .2s ease-in-out;
+}
+.cmt-card:hover{
+    border: 1px solid #0e758a;
+}
+#list-4{
+    max-height: 300px !important;
+}
+
+.list-group-item.active
+ {
+    background-color: #0e758a;
+    border-color: #0e758a;
 }
