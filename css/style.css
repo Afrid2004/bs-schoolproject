@@ -18,11 +18,7 @@ li{
     list-style-type: none;
 }
 body{
-<<<<<<< HEAD
     background-color: #00d5ff3a;
-=======
-    background-color: #aff2ff;
->>>>>>> f50420c74f72162e29487248321d67fd4a1c7d62
 }
 .menu-list li{
     cursor: pointer;

@@ -56,20 +56,3 @@ swiperEl.addEventListener('mouseleave', () => {
 //swipper js
 
 
-<<<<<<< HEAD
-=======
-//dynamic modal 
-var allCardItem = document.querySelectorAll(".card-item"),
-modalTitle = document.querySelector(".modalTitle"),
-modalImg = document.getElementById("modalImg");
-
-allCardItem.forEach((card) => {
-  var imgSrc = card.querySelector("#imgSrc"),
-  imgCaption = card.querySelector("#imgCaption");
-
-  card.addEventListener('click', () => {
-    modalImg.setAttribute("src",imgSrc.src);
-    modalTitle.textContent = imgCaption.textContent;
-  })
-})
->>>>>>> f50420c74f72162e29487248321d67fd4a1c7d62
