@@ -11,10 +11,15 @@
 a{
     text-decoration: none;
 }
+.hover-underline:hover{
+    text-decoration: underline;
+}
 li{
     list-style-type: none;
 }
-
+body{
+    background-color: #00d5ff3a;
+}
 .menu-list li{
     cursor: pointer;
 }

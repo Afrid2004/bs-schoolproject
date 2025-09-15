@@ -10,22 +10,19 @@ const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   spaceBetween: 5,
 
-
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable:true,
     dynamicBullets:true 
   },
 
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
     autoplay: {
-    delay: 3000,          // প্রতি ৩ সেকেন্ডে স্লাইড পরিবর্তন হবে
-    disableOnInteraction: false, // ইউজার ক্লিক করার পরেও autoplay চলবে
+    delay: 3000,
+    disableOnInteraction: false,
   },
   breakpoints: {
     0:{
@@ -33,6 +30,9 @@ const swiper = new Swiper('.slider-wrapper', {
     },
     620: {
         slidesPerView : 2
+    },
+    768: {
+        slidesPerView : 3
     },
     1024: {
         slidesPerView : 4
@@ -54,4 +54,5 @@ swiperEl.addEventListener('mouseleave', () => {
 });
 
 //swipper js
+
 
