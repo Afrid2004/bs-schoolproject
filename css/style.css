@@ -226,11 +226,7 @@ body{
 .btn-info:hover{
     background-color:#0e758a;
 }
-/* .modal{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-} */
+
 .committee-banner{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/committee.jpg);
     background-position: center;
@@ -268,4 +264,8 @@ transition: all .2s ease-in-out;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 
+}
+iframe{
+    height: 200px !important;
+    max-height: 200px !important;
 }
