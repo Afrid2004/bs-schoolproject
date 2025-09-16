@@ -56,4 +56,23 @@ swiperEl.addEventListener('mouseleave', () => {
 //swipper js
 
 
-//bootstrap tab 
+//modal
+document.addEventListener("DOMContentLoaded", function () {
+        const modal = document.getElementById("exampleModal");
+        const modalImg = modal.querySelector(".modal-body img");
+        const modalTitle = modal.querySelector(".modal-title");
+
+        // সবগুলো কার্ড আইটেম ধরো
+        const cards = document.querySelectorAll(".card-item");
+
+        cards.forEach(card => {
+            card.addEventListener("click", function () {
+                const img = card.querySelector("img");
+                const caption = card.querySelector("p").innerText;
+
+                // মডালের ভেতরের ছবি আর টাইটেল আপডেট করো
+                modalImg.src = img.src;
+                modalTitle.innerText = caption;
+            });
+        });
+    });

@@ -226,11 +226,11 @@ body{
 .btn-info:hover{
     background-color:#0e758a;
 }
-.modal{
+/* .modal{
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-30%);
-}
+    transform: translate(-50%,-50%);
+} */
 .committee-banner{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/committee.jpg);
     background-position: center;
@@ -259,4 +259,13 @@ transition: all .2s ease-in-out;
 }
 .i-info{
     color: #0d6475;
+}
+.modal-body{
+    padding: 0rem !important;
+}
+
+.modal-body img{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
 }

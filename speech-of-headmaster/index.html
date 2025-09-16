@@ -12,6 +12,9 @@
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awsome cdn -->
+    <!--swipper js css cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <!--swipper js css cdn-->
     <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <title>Speech of Headmaster</title>
 </head>
@@ -199,6 +202,101 @@
             </div>
         </div>
         
+        <section class="gallery-section pt-5 pb-5">
+            <div class="sec-title bg-info text-center py-1 text-light mb-2">
+                <p class="mb-0">ফটো গ্যালারি</p>
+            </div>
+            <div class="gallery  position-relative">
+                <div class="gallery-slider swiper">
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-1.jpg" id="imgSrc" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light" id="imgCaption">ছবি ১0</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-2.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ২</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-3.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৩</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-1.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৪</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-2.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৫</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-3.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৬</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-1.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৭</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-item swiper-slide" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="sec-img-content position-relative">
+                                <img src="../images/school-2.jpg" class="d-block w-100" alt="school1">
+                                <div class="sec-text-content position-absolute bottom-0 z-1 w-100 p-1">
+                                    <p class="mb-0 text-light">ছবি ৮</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./images/school-1.jpg" alt="modalimg" class="d-block w-100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <!-- body end -->
 
@@ -243,6 +341,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!-- bootstrap js -->
+    <!--swipper js javaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!--swipper js javaScript-->
     <!-- custom js -->
     <script src="../js/script.js"></script>
     <!-- custom js -->
